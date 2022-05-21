@@ -808,7 +808,7 @@ public class BurpExtender implements IBurpExtender, IScannerCheck, ITab, ActionL
                 javaPathJPanel.setAlignmentX(Component.LEFT_ALIGNMENT); 
                 JLabel labelJavaPath = new JLabel("Java path (recent Java major versions do not allow to run ysoserial properly): ");
                 javaPath = new JTextField(200);                
-                javaPath.setText("java");
+                javaPath.setText("/Users/spencer/Software/HACK/CS/GUI_Tools/Java_path/Java_8/bin/java");
                 javaPath.setMaximumSize( javaPath.getPreferredSize() );
                 javaPathJPanel.add(labelJavaPath);
                 javaPathJPanel.add(javaPath);
@@ -818,7 +818,7 @@ public class BurpExtender implements IBurpExtender, IScannerCheck, ITab, ActionL
                 configurationPaneButtonJPanel.setAlignmentX(Component.LEFT_ALIGNMENT); 
                 JLabel labelConfigurationPaneYsoserialPath = new JLabel("Ysoserial path: ");
                 ysoserialPath = new JTextField(200);                
-                ysoserialPath.setText("ysoserial.jar");
+                ysoserialPath.setText("/Users/spencer/Software/HACK/Web/JAVA/ysoserial-master-8eb5cbfbf6-1.jar");
                 ysoserialPath.setMaximumSize( ysoserialPath.getPreferredSize() );
                 configurationPaneButtonJPanel.add(labelConfigurationPaneYsoserialPath);
                 configurationPaneButtonJPanel.add(ysoserialPath);
@@ -1576,7 +1576,7 @@ public class BurpExtender implements IBurpExtender, IScannerCheck, ITab, ActionL
 
 
 	public String getTabCaption() {
-		return "Deserialization Scanner";
+		return "java反序列化扫描";
 	}
 
 
